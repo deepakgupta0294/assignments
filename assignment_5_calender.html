@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment-5-Calender</title>
+  <style>
+    /*Basic body styling using box model*/
+    body {
+      box-sizing: border-box;
+      background-color: rgb(203, 240, 240);
+      background-position: inherit;
+      margin: 30% 30%;
+      padding: 10px;
+      width: fit-content;
+      border: solid 2px gray;
+      border-radius: 3%;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-align: center;
+
+    }
+
+    /* Div section with unordered list is styled */
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      display: flex;
+      column-gap: 16px;
+    }
+
+    .container-one {
+
+      background: gray;
+
+
+    }
+
+    /* Div section of days in which grid is used */
+    .container-two {
+      background-image: url('https://image.shutterstock.com/image-vector/christmas-snowy-woodland-landscape-firs-260nw-1189023829.jpg');
+      display: grid;
+      grid-template-columns: repeat(7, 45px);
+      grid-column-start: auto;
+
+    }
+
+    /* For first element content position in columns grid property used */
+    .container-two :first-child {
+      grid-column: 5;
+    }
+
+
+    /* Heading h2 is styled */
+    h2 {
+      margin-top: 0;
+      background-color: rgb(219, 112, 94);
+      border-bottom: solid 1px rgb(39, 39, 39);
+    }
+  </style>
+</head>
+
+<body>
+  <h2>December 2022</h2>
+  <!--Div section with list for week day name-->
+  <div class="container-one">
+    <ul>
+      <li class="item">Sun</li>
+      <li class="item">Mon</li>
+      <li class="item">Tue</li>
+      <li class="item">Wed</li>
+      <li class="item">Thu</li>
+      <li class="item">Fri</li>
+      <li class="item">Sat</li>
+    </ul>
+  </div>
+  <!--Grid container-->
+  <div class="container-two">
+    <div class="ditem">1</div>
+    <div class="ditem">2</div>
+    <div class="ditem">3</div>
+    <div class="ditem">4</div>
+    <div class="ditem">5</div>
+    <div class="ditem">6</div>
+    <div class="ditem">7</div>
+    <div class="ditem">8</div>
+    <div class="ditem">9</div>
+    <div class="ditem">10</div>
+    <div class="ditem">11</div>
+    <div class="ditem">12</div>
+    <div class="ditem">13</div>
+    <div class="ditem">14</div>
+    <div class="ditem">15</div>
+    <div class="ditem">16</div>
+    <div class="ditem">17</div>
+    <div class="ditem">18</div>
+    <div class="ditem">19</div>
+    <div class="ditem">20</div>
+    <div class="ditem">21</div>
+    <div class="ditem">22</div>
+    <div class="ditem">23</div>
+    <div class="ditem">24</div>
+    <div class="ditem">25</div>
+    <div class="ditem">26</div>
+    <div class="ditem">27</div>
+    <div class="ditem">28</div>
+    <div class="ditem">29</div>
+    <div class="ditem">30</div>
+    <div class="ditem">31</div>
+  </div>
+
+
+</body>
+
+</html>
