@@ -1,0 +1,30 @@
+/* Sections of form are styled using class attribute */
+body
+{   /* border, margin and background color applied */   
+    border:3px solid rgb(138, 138, 153);
+    padding: 5px 5px 5px;  
+    border-radius: 10px;
+    margin: 20px;
+    /*background-color: aquamarine; */
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/392/36/36/5bd16e60ad82b-wallpaper-preview.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+      color:brown;
+      text-shadow: 1px 1px #313030;/*To give shadow to text*/
+      text-align: center; /* Text will be aligned at center */   
+   }
+.Details {
+          
+        padding:10px; font-size:20px; font-style:italic; /*Padding is used*/   
+}
+.profession{
+   padding:10px; font-size: 20px; font-style: italic;
+}
+.dob{
+   padding:10px; font-size: 20px; font-style: italic;
+}
+.notes{
+   padding:10px; font-size: 20px; font-style: italic;
+}

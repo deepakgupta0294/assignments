@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Deepak_Gupta_Assignment_III</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--To style the content CSS is used. A CSS file is linked through link tag -->
+        <!--External CSS-->
+        <link href="assignment_3_style.css" rel="stylesheet"/>
+     <h1><u>REGISTRATION FORM</u></h1>
+    </head>
+    <body>
+    <form>             <!--Form tag is used to develop a registration form-->
+       <div class="Details">      <!--style is given using class attribute-->
+        <p>>> Enter Your Details Below : </p><br>
+        <label for="Email">Email : </label>
+        <input type="email" placeholder="Example:abc@gmail.com"><br><br>
+      <label for="password">Password : </label>
+      <input type="password" placeholder="Example:abc123**321cba"><br><br>
+      (Type a complex password with 8-20 characters.)<br><br>
+      >> Enter Your Contact Number :<br><br>
+      <input type="number" placeholder="+91-9999900000"><br><hr>
+       </div>
+       <div class="profession">   
+       >> Enter Your Profession :<br><br>  <!--Input type Radio is used to select profession below-->
+      <input type="radio" name="profession"><b style="color:blue;font-size: 16px;">Student</b>
+      <input type="radio" name="profession"><b style="color:blue;font-size: 16px;">Teacher</b>
+      <input type="radio" name="profession"><b style="color:blue;font-size: 16px;">Developer</b> <br><br>
+      >> Choose the stage if you are (Student)
+      <select name="stage">        <!--Select tag is used to select stage of the student-->
+        <option value="Matriculation">Matriculation</option>
+        <option value="Intermediate">Intermediate</option>
+        <option value="Graduate">Graduate</option>
+        <option value="Post Graduate">Post graduate</option>
+      </select><br><hr>
+       </div>
+       <div class="dob">     <!--Input type date is used to input date of birth below-->
+      >> Enter Your Date of Birth : <input type="date" max="2022-10-14"><br><hr>
+       </div>
+       <div class="notes">
+      >> Any Notes : 
+      <textarea rows="1" cols="50"></textarea><br><hr> <!--To provide any notes textarea is used-->
+       </div>
+       <div class="Submission">
+      <input type="submit" value="Submit"> <input type="reset" value="Reset">  <!--To submit or reset the form, input type submit and reset is used-->   
+       </div>  
+    </form>
+    </body>
+</html>
